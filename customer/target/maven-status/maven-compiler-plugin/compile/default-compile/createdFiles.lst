@@ -1,7 +1,0 @@
-com/microservices/CustomerService.class
-com/microservices/CustomerRepository.class
-com/microservices/Customer$CustomerBuilder.class
-com/microservices/CustomerController.class
-com/microservices/Customer.class
-com/microservices/CustomerApplication.class
-com/microservices/CustomerRegistrationRequest.class
