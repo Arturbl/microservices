@@ -1,5 +1,7 @@
-package com.amigoscode.customer;
+package com.microservices.controller;
 
+import com.microservices.CustomerRegistrationRequest;
+import com.microservices.service.CustomerService;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;

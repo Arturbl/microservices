@@ -1,5 +1,8 @@
-package com.amigoscode.customer;
+package com.microservices.service;
 
+import com.microservices.CustomerRegistrationRequest;
+import com.microservices.repository.CustomerRepository;
+import com.microservices.model.Customer;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

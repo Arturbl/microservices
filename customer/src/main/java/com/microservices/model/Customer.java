@@ -1,4 +1,4 @@
-package com.amigoscode.customer;
+package com.microservices.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
