@@ -8,7 +8,6 @@ import java.time.LocalDateTime;
 
 @Service
 public class FraudCheckService {
-
     private final FraudCheckHistoryRepository fraudCheckHistoryRepository;
 
     public FraudCheckService(FraudCheckHistoryRepository fraudCheckHistoryRepository) {
