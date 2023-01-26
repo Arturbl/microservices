@@ -1,7 +1,7 @@
 
-			### Intellij generated files ###
+### Intellij generated files ###
 .idea
+*.iml
 
-
-				### Folders ###
+### Folders ###
 target/

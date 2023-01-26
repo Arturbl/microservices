@@ -14,9 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @AllArgsConstructor
 @Slf4j
 public class FraudCheckController {
-
     private final FraudCheckService fraudCheckService;
-
     @GetMapping(path = "{customerId}")
     public FraudCheckResponse isFraudster(@PathVariable("customerId") Integer customerId) {
         Boolean isFraudulent = fraudCheckService.isFraudulent(customerId);
